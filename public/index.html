@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EduPhi</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<header><h1>EduPhi</h1>
+ <div class="actions"><button id="newBtn">New project</button><button id="histBtn">Project history</button><button id="pageBtn">Generate page</button></div></header>
+<form id="startForm"><input id="q" placeholder="What do you want to learn?" aria-label="Search or question" required><button>Start</button></form>
+<p id="origin" class="muted"></p>
+<fieldset id="wheel" aria-label="Color mode"></fieldset>
+<p id="mode" class="muted"></p>
+<input id="steer" placeholder="Optional steering note for the next card" aria-label="Steering note">
+<main><nav id="tree" aria-label="Learning tree"></nav><section id="cards"></section></main>
+<dialog id="hist"><h2>Project history</h2><ul id="histList"></ul><button id="histClose">Close</button></dialog>
+<dialog id="pageDlg"><iframe id="pageFrame" title="Generated page"></iframe><button id="dl">Download HTML</button><button id="pageClose">Close</button></dialog>
+<script type="module" src="app.js"></script></body></html>
