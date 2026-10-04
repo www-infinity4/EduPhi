@@ -1,0 +1,14 @@
+body{margin:0;font:16px/1.5 system-ui,sans-serif;background:#fffaf3;color:#222;padding:0 .8rem 2rem}
+header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:.5rem}
+h1{color:#f08a1c;margin:.6rem 0}button,input{font:inherit;padding:.45rem .7rem;border-radius:.5rem;border:1px solid #ccc}
+button{background:#fff;cursor:pointer}#startForm{display:flex;gap:.4rem}#q,#steer{flex:1;width:100%;box-sizing:border-box}#steer{margin:.4rem 0}
+.muted{color:#777;font-size:.85rem;margin:.3rem 0}
+#wheel{display:flex;gap:.5rem;border:0;padding:0;margin:.6rem 0}
+#wheel button{width:2.8rem;height:2.8rem;border-radius:50%;border:3px solid transparent;color:#fff;font-weight:700;padding:0}
+#wheel button[aria-pressed=true]{border-color:#222;transform:scale(1.15)}
+main{display:grid;gap:1rem}@media(min-width:48rem){main{grid-template-columns:16rem 1fr}}
+#tree{font-size:.9rem}#tree ul{list-style:none;padding-left:.9rem;margin:.2rem 0}#tree a{cursor:pointer;border-left:4px solid;padding-left:.3rem;display:block}#tree a.cur{font-weight:700}
+.card{background:#fff;border-left:6px solid #f08a1c;border-radius:.6rem;padding:.2rem 1rem 1rem;margin-bottom:1rem;box-shadow:0 1px 3px #0002}
+.card.focus{outline:2px solid #f08a1c}.rel{font-size:.8rem;color:#777}
+.term{background:none;border:0;border-bottom:3px solid;padding:0;cursor:pointer;color:inherit}
+.src{font-size:.8rem}dialog{max-width:95vw}iframe{width:min(90vw,44rem);height:70vh;border:1px solid #ddd}
